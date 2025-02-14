@@ -1,0 +1,13 @@
+:root {
+  width: 100%;
+  height: auto;
+  padding: 1%;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: linear-gradient(to top, #0e464f, #02191d);
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}

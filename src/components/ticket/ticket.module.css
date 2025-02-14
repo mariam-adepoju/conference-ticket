@@ -1,0 +1,85 @@
+.ticket {
+  width: 300px;
+  height: 600px;
+  background-image: url("subtract.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: auto;
+  position: relative;
+}
+.ticketbody {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  text-align: center;
+  margin: auto;
+  width: 250px;
+  height: 446px;
+  padding: 10px;
+  font-family: "Roboto";
+  font-size: 12px;
+}
+.subhead h1 {
+  font-family: "Road Rage";
+  margin-bottom: 5px;
+  font-size: 34px;
+}
+.subheadbody p {
+  padding: 3px;
+  margin-top: 0px;
+}
+.photo {
+  margin: 30px auto;
+  width: 140px;
+  height: 140px;
+  border: 4px solid #24a0b5;
+  border-radius: 12px;
+}
+.ticketfooter {
+  position: absolute;
+  bottom: 15px;
+  left: 32px;
+}
+.userName {
+  display: flex;
+  flex-direction: column;
+}
+.userEmail {
+  display: flex;
+  flex-direction: column;
+}
+.ticketType {
+  grid-area: "ticketType";
+  display: flex;
+  flex-direction: column;
+}
+.ticketQty {
+  display: flex;
+  flex-direction: column;
+}
+.userRequest {
+  text-align: justify;
+  flex-direction: row;
+  background-color: #08343c;
+  border-radius: 1px solid #133d44;
+  padding: 10px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+.details {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: justify;
+  background-color: #08343c;
+  border-radius: 1px solid #133d44;
+  padding: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+h4 {
+  color: grey;
+}

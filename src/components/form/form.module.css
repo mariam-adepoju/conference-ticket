@@ -1,0 +1,156 @@
+.container {
+  padding: 1%;
+  width: 50%;
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px auto;
+  border: 1px solid #0e464f;
+  border-radius: 40px;
+  background-color: #041e23;
+  color: #ffffff;
+}
+.subContainer {
+  width: 95%;
+  margin-bottom: 2%;
+}
+.step {
+  font-family: "JujuMyeongjo";
+  font-size: 32px;
+}
+.stepno {
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.progressbar {
+  margin: 1%;
+  background-color: #0e464f;
+  height: 5px;
+}
+.prog {
+  background-color: #24a0b5;
+  height: 100%;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+.formBody {
+  width: 95%;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #08252b;
+  border: 1px solid #0e464f;
+  border-radius: 32px;
+  padding: 10px;
+}
+.subhead {
+  text-align: center;
+  padding: 1% 20px;
+  background-image: linear-gradient(45deg, #07373f, #07262b);
+  border: 1px solid #073737;
+  border-radius: 24px;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+.title {
+  font-size: 16px;
+  font-family: "Roboto";
+}
+.title h1 {
+  font-family: "Road Rage";
+  font-size: 60px;
+}
+
+hr {
+  margin: 10px auto;
+  border: 1px solid #073737;
+}
+.btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.btnContainer button {
+  width: 48%;
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid #24a0b5;
+  color: #24a0b5;
+  font-family: "JujuMyeongjo";
+  font-size: 16px;
+}
+.btnContainer button:hover {
+  color: #ffffff;
+  border: none;
+  background-color: #24a0b5;
+}
+.ticketHead {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.ticketHead h2 {
+  font-family: "Alatsi", sans-serif;
+  font-size: 32;
+}
+.ticketHead p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+@media screen and (max-width: 350px) {
+  .container {
+    width: 98%;
+  }
+  .header {
+    display: block;
+  }
+  .btnContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .btnContainer button {
+    width: 90%;
+    padding: 10px;
+  }
+  .formBody {
+    width: 98%;
+    padding: 5px;
+  }
+  .title h1 {
+    font-size: 48px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container {
+    width: 98%;
+  }
+  .title h1 {
+    font-size: 48px;
+  }
+  .header {
+    display: block;
+  }
+  .btnContainer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .btnContainer button {
+    width: 90%;
+    padding: 10px;
+  }
+  .formBody {
+    width: 98%;
+    padding: 5px;
+  }
+}
