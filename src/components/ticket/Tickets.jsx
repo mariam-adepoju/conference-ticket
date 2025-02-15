@@ -1,6 +1,7 @@
 import styles from "./ticket.module.css";
 import { useContext } from "react";
 import { GlobalContext } from "../../context/Context";
+import barcode from "../../assets/barcode.png";
 
 export default function Tickets() {
   const { formValue, sectionRef, imageUrl } = useContext(GlobalContext);
@@ -49,7 +50,7 @@ export default function Tickets() {
           </div>
         </div>
         <div className={styles.ticketfooter}>
-          <img src="src\assets\Bar Code.png" alt="barcode" />
+          <img src={barcode} alt="barcode" />
         </div>
       </div>
     </div>

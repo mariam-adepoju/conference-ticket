@@ -1,8 +1,10 @@
+import logo from "../../assets/logo.png";
+import div from "../../assets/div.png";
 import styles from "./header.module.css";
 export default function Header() {
   return (
     <div className={styles.header}>
-      <img src="src/assets/logo.png " alt="logo" />
+      <img src={logo} alt="logo" />
       <div className={styles.nav}>
         <p>Events</p>
         <p>My Tickets</p>
@@ -12,7 +14,7 @@ export default function Header() {
         <button className={styles.btn}>
           MY TICKETS
           <span>
-            <img src="src\assets\div.png" />
+            <img src={div} />
           </span>
         </button>
       </div>

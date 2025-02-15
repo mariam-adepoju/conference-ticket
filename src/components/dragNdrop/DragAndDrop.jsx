@@ -2,6 +2,7 @@ import { useState, useContext } from "react";
 import styles from "./dragndrop.module.css";
 import axios from "axios";
 import { GlobalContext } from "../../context/Context";
+import cloud from "../../assets/cloud-download.png";
 
 export default function DragAndDrop() {
   const { formValue, setFormValue, imageUrl, setImageUrl } =
@@ -81,7 +82,7 @@ export default function DragAndDrop() {
           />
         ) : (
           <div>
-            <img src="src\assets\cloud-download.png" alt="cloud icon" />
+            <img src={cloud} alt="cloud icon" />
             <p>Drag & drop or click to upload</p>
           </div>
         )}
